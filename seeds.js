@@ -37,7 +37,7 @@ function seeddb(){
             console.log("campground created");
             comment.create({
                 text:"asdfgasdfgasdfasasdasasas",
-                author:"osama"
+                author:"Faizan"
             },function(err,comment){
               if(err){
                   console.log(err);
